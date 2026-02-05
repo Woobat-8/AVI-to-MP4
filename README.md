@@ -39,16 +39,18 @@ pyinstaller --onefile --windowed --name "AVI to MP4" --icon icon.ico --add-data 
 3. Select AVI file to convert (or drag and drop)
 
 ## Future Plans
->One or more of these will be included in the next **major** version.
+>One or more of these will be included in the next **minor** version.
 ### In no particular order:
 - Windows 10 support
+- Linux support
 - File Size vs Quality mode
 - Multi-file (queue) support
 - General optimizations
 
 ## Known Issues
->If you've encountered an issue not listed here, report it [here.](https://github.com/Woobat-8/AVI-to-MP4/issues) This covers known issues or untested features I’m aware of and actively working on. Most will **likely** be fixed in the next version.
-- Untested on systems using Intel Graphics (Intel QSV)
+>If you've encountered an issue not listed here, report it [here.](https://github.com/Woobat-8/AVI-to-MP4/issues) This covers known issues or untested features I’m aware of and actively working on. One or more will **likely** be fixed in the next **patch**.
+- Drops to 0kb/s on low-end CPUs
+- Horribly slow on low-end Intel CPUs (use Intel's QSV if availible if you encounter this issue)
 - Conversion using an AMD GPUs may lead to bloated MP4 file sizes
 
 ## License and Credits
