@@ -25,11 +25,11 @@
 ### Steps
 1. Clone or download the repository
 2. Install dependencies: `pip install -r requirements.txt`
-3. Modify `avi_to_mp4_gui.py` as desired
-4. Run directly as `python avi_to_mp4_gui.py`
+3. Modify `avi_to_mp4.py` as desired
+4. Run directly as `python avi_to_mp4.py`
 5. Or build .exe file:
 ```
-pyinstaller --onefile --windowed --name "AVI to MP4" --icon icon.ico --add-data "icon.ico;." --version-file version.txt avi_to_mp4_gui.py
+pyinstaller --onefile --windowed --name "AVI to MP4" --icon icon.ico --add-data "icon.ico;." --version-file version.txt avi_to_mp4.py
 ```
 
 ## Usage
