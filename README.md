@@ -12,7 +12,7 @@
 </p>
 
 ## Download
-#### To use easily on Windows 11, download the latest version [here.](https://github.com/Woobat-8/AVI-to-MP4/releases) No setup needed!
+#### To use easily on Windows 10/11, download the latest version [here.](https://github.com/Woobat-8/AVI-to-MP4/releases) No setup needed!
 *Note: Windows may flag the exe as Unsafe. This is because I [cannot afford code signing](https://codesigningstore.com/ov-code-signing-certificates) so the program is [unsigned.](https://learn.microsoft.com/en-us/windows/apps/develop/smart-app-control/code-signing-for-smart-app-control) Click "More" --> "Run Anyway" to use.*
 #### View the latest version's release notes [here.](https://github.com/Woobat-8/AVI-to-MP4/releases/latest)
 
@@ -41,17 +41,17 @@ pyinstaller --onefile --windowed --name "AVI to MP4" --icon icon.ico --add-data 
 ## Future Plans
 >One or more of these will be included in the next **minor** version.
 ### In no particular order:
-- Windows 10 support
 - Linux support
 - File Size vs Quality mode
 - Multi-file (queue) support
+- More Quality/Speed customization options
 - General optimizations
 
 ## Known Issues
 >If you've encountered an issue not listed here, report it [here.](https://github.com/Woobat-8/AVI-to-MP4/issues) This covers known issues or untested features I’m aware of and actively working on. One or more will **likely** be fixed in the next **patch**.
 - Drops to 0kb/s on low-end CPUs
-- Horribly slow on low-end Intel CPUs (use Intel's QSV if availible if you encounter this issue)
 - Conversion using an AMD GPUs may lead to bloated MP4 file sizes
+*Note*: Not tested on Windows 10 devices, but should work.
 
 ## License and Credits
 #### Licensed under the [GPLv3 License.](https://github.com/Woobat-8/AVI-to-MP4/blob/main/LICENSE) Powered by [FFmpeg](https://ffmpeg.org/).
