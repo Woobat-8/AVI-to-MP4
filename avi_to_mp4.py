@@ -39,7 +39,7 @@ from tkinterdnd2 import DND_FILES, TkinterDnD
 # App config
 # ******************************
 APP_NAME = "AVI → MP4"
-APP_VERSION = (1, 0, 0, 260205)  # Major.Minor.Patch.YYMMDD
+APP_VERSION = (1, 0, 1, 260323)  # Major.Minor.Patch.YYMMDD
 
 DIR = os.path.join(os.getenv("APPDATA") or os.path.expanduser("~"), "AVI to MP4")
 CONFIG_FILE = os.path.join(DIR, "settings.json")
